@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: `Mutual Wide Corporation`,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `Henry`,
+      summary: `DevOps & Software Engineer`,
     },
     description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
     siteUrl: `https://gatsbyglass.netlify.app`,
@@ -12,17 +12,9 @@ module.exports = {
     },
     socialLinks: [
       {
-        name: 'github',
-        url: 'https://github.com',
-      },
-      {
-        name: 'twitter',
-        url: 'https://twitter.com',
-      },
-      {
-        name: 'instagram',
-        url: 'https://instagram.com',
-      },
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/company/mutual-wide-corporation/',
+      }
     ],
   },
   plugins: [

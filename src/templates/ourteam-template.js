@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 
-const AboutTemplate = ({ data }) => {
+const OurTeamTemplate = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark;
 
   return (
@@ -16,7 +16,7 @@ const AboutTemplate = ({ data }) => {
   );
 };
 
-export default AboutTemplate;
+export default OurTeamTemplate;
 
 const AboutWrapper = styled.div`
   display: flex;
