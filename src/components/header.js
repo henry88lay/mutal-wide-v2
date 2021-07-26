@@ -2,33 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Container from './container';
-import { useStaticQuery, graphql } from 'gatsby';
+import companylogo from './company-logo.png';
 
 const Header = () => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  );
-
   return (
     <StyledHeader>
       <HeaderWrapper>
         <HeaderTitle>
-          <Link to="/">{site.siteMetadata.title}</Link>
+          <Link to="/">
+            <img src={companylogo} alt="logo" width="97" />
+          </Link>
         </HeaderTitle>
 
         <HeaderNavList>
-          <HeaderNavListItem>
-            <Link to="/blog">Blog</Link>
-          </HeaderNavListItem>
-
           <HeaderNavListItem>
             <Link to="/about">About</Link>
           </HeaderNavListItem>

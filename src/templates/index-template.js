@@ -1,12 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
-import PostList from '../components/post-list';
 import styled from 'styled-components';
 import StyledLink from '../components/styled-link';
 
 const HomePage = ({ data }) => {
-  const posts = data.allMarkdownRemark.nodes;
   const intro = data.markdownRemark.html;
   const title = data.markdownRemark.frontmatter.title;
 
@@ -17,21 +15,6 @@ const HomePage = ({ data }) => {
           __html: intro,
         }}
       />
-
-      <PostList posts={posts} />
-      <StyledLink
-        css={`
-          display: block;
-          margin-top: var(--size-800);
-          margin-bottom: var(--size-800);
-          margin-left: auto;
-          margin-right: auto;
-          width: fit-content;
-        `}
-        to="/blog"
-      >
-        View All posts
-      </StyledLink>
     </Layout>
   );
 };
