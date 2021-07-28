@@ -8,19 +8,19 @@ const OurTeamTemplate = ({ data }) => {
 
   return (
     <Layout title={frontmatter.title}>
-      <AboutWrapper>
+      <OurTeamWrapper>
 
-        <AboutCopy dangerouslySetInnerHTML={{ __html: html }} />
-      </AboutWrapper>
+        <OurTeamCopy dangerouslySetInnerHTML={{ __html: html }} />
+      </OurTeamWrapper>
     </Layout>
   );
 };
 
 export default OurTeamTemplate;
 
-const AboutWrapper = styled.div`
+const OurTeamWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-around;
   height: 100%;
 
@@ -32,12 +32,27 @@ const AboutWrapper = styled.div`
     & > * {
       margin-top: 2rem;
       width: 100%;
-      text-align: center;
+      text-align: left;
     }
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+
+  p {
+    padding-bottom: 1rem;
   }
 `;
 
-const AboutCopy = styled.div`
+const OurTeamCopy = styled.div`
   max-width: 60ch;
 
   & p {

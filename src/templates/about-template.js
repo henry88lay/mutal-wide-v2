@@ -20,7 +20,7 @@ export default AboutTemplate;
 
 const AboutWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-around;
   height: 100%;
 
@@ -32,8 +32,18 @@ const AboutWrapper = styled.div`
     & > * {
       margin-top: 2rem;
       width: 100%;
-      text-align: center;
+      text-align: left;
     }
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
   }
 `;
 

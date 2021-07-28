@@ -8,19 +8,19 @@ const OurVisionTemplate = ({ data }) => {
 
   return (
     <Layout title={frontmatter.title}>
-      <AboutWrapper>
+      <OurVisionWrapper>
 
-        <AboutCopy dangerouslySetInnerHTML={{ __html: html }} />
-      </AboutWrapper>
+        <OurVisionCopy dangerouslySetInnerHTML={{ __html: html }} />
+      </OurVisionWrapper>
     </Layout>
   );
 };
 
 export default OurVisionTemplate;
 
-const AboutWrapper = styled.div`
+const OurVisionWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-around;
   height: 100%;
 
@@ -32,13 +32,22 @@ const AboutWrapper = styled.div`
     & > * {
       margin-top: 2rem;
       width: 100%;
-      text-align: center;
+      text-align: left;
     }
+    
+    p {
+    padding-bottom: 1rem;
+  }
   }
 `;
 
-const AboutCopy = styled.div`
+const OurVisionCopy = styled.div`
   max-width: 60ch;
+
+  h1 {
+    margin-bottom: 1rem;
+
+  
 
   & p {
     font-size: var(--size-400);

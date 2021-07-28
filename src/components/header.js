@@ -10,10 +10,9 @@ const Header = () => {
       <HeaderWrapper>
         <HeaderTitle>
           <Link to="/">
-            <img src={companylogo} alt="logo" width="97" />
+            <img src={companylogo} alt="logo" width="80" />
           </Link>
         </HeaderTitle>
-
         <HeaderNavList>
           <HeaderNavListItem>
             <Link to="/about">About</Link>
@@ -91,7 +90,7 @@ const StyledNavListItem = styled.li`
   }
   @media screen and (max-width: 700px) {
     &:not(:last-of-type) {
-      margin-right: 1rem;
+      margin-right: .5rem;
     }
   }
   & a {

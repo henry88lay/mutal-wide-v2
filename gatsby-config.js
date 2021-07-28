@@ -2,14 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Mutual Wide Corporation`,
     author: {
-      name: `Henry`,
+      name: `Henry Lay`,
       summary: `DevOps & Software Engineer`,
     },
     description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
     siteUrl: `https://gatsbyglass.netlify.app`,
-    social: {
-      twitter: `yinkakun`,
-    },
     socialLinks: [
       {
         name: 'linkedin',
@@ -34,13 +31,6 @@ module.exports = {
       options: {
         name: 'pages',
         path: `${__dirname}/content/pages`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'posts',
-        path: `${__dirname}/content/posts`,
       },
     },
     {

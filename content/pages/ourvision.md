@@ -1,6 +1,6 @@
 ---
 title: Our Vision
-template: about-template
+template: ourvision-template
 ---
 
 # Our Vision
