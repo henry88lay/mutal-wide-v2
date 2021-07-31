@@ -30,7 +30,7 @@ const LayoutWrapper = styled.div`
   flex-direction: column;
 
   & main {
-    margin-top: auto;
+    margin-top: 3rem;
     margin-bottom: auto;
   }
 

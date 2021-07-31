@@ -36,6 +36,10 @@ const OurTeamWrapper = styled.div`
     }
   }
 
+  h3 {
+    margin-top: 2rem;
+  }
+
   h2 {
     margin-bottom: 1rem;
   }

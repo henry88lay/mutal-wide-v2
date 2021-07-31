@@ -1,7 +1,9 @@
 ---
 title: About Us
 template: about-template
+company_image: ./companylogo.jpg
 ---
+
 
 # About Us
 

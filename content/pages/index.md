@@ -1,4 +1,6 @@
 ---
 template: 'index-template'
-title: 'Our Vision'
+title: 'Mutual Wide Corporation'
 ---
+
+# Mutual Wide Corporation

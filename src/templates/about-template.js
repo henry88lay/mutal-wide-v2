@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
+import companylogo from './companylogo.png';
 
 const AboutTemplate = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark;
@@ -9,6 +10,7 @@ const AboutTemplate = ({ data }) => {
   return (
     <Layout title={frontmatter.title}>
       <AboutWrapper>
+      <CompanyLogoWrapper src={companylogo} alt="" />
 
         <AboutCopy dangerouslySetInnerHTML={{ __html: html }} />
       </AboutWrapper>
@@ -44,6 +46,18 @@ const AboutWrapper = styled.div`
   li {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
+  }
+`;
+
+const CompanyLogoWrapper = styled.img`
+  display: block;
+  width: 40%;
+  align-self: center;
+
+  @media screen and (max-width: 1000px) {
+    display: block;
+    width: 80%;
+    align-self: center;
   }
 `;
 
