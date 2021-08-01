@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import herobannerimage from './src/components/hero-banner.jpg';
+import herobannerimage from '/Users/henrylay/code/henry88lay/mutual-wide-v2/src/components/heroBanner.jpg';
 
 const heroBannerComponent = () => {
     return (
@@ -23,12 +23,3 @@ const HeroBanner = styled.img`
     
   }
 `;
-
-const HeroBannerText = styled.div`
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-`

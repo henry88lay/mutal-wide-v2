@@ -10,9 +10,7 @@ const HomePage = ({ data }) => {
 
   return (
     <Layout title={title}>
-      <HeroBanner> 
-        
-      </HeroBanner>
+      <HeroBanner />
       <Intro dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   );
@@ -37,13 +35,17 @@ const Intro = styled.div`
     text-transform: capitalize;
     font-size: var(--size-400);
   }
+
+  h1 {
+    color: darkgray;
+  }
   @media screen and (max-width: 850px) {
     position: fixed;
     top: 300px;
     h1 {
       font-size: var(--size-400);
+      color: darkgray;
     }
-    color: darkgray;
   }
 
   @media screen and (max-width: 600px) {
@@ -52,8 +54,10 @@ const Intro = styled.div`
     left: 10%;
     h1 {
       font-size: var(--size-400);
+      color: darkgray;
     }
-    color: darkgray;
+
+    
   }
 `;
 
