@@ -4,7 +4,7 @@
   "description": "Mutual Wide Corporation Limited is a Hong Kong incorporated holding company.",
   "version": "1.0.0",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.16.1"
   },
   "author": "Henry Lay <henry88lay@gmail.com>",
   "dependencies": {
