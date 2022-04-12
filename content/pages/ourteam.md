@@ -5,11 +5,19 @@ template: ourteam-template
 
 ## Our Team
 
+![Group Photo 1](GroupPhoto1.jpg)
+
 MW has an experienced team of professionals with experience and expertise in disciplines necessary to address the specific challenges of a wide range of projects. 
+
+![Group Photo 2](GroupPhoto2.jpg)
 
 Our team includes expertise in forestry, geology, biology, scientists and engineers all supported by a finance team that has raised significant capital for various projects around the world. 
 
+![Multishots](Multishots.jpg)
+
 For each project, we assemble an experienced team of professionals with experience and expertise in disciplines necessary to address the specific challenges of the project at hand.
+
+![png People](pngPeople.jpg)
 
 #### The MW team has founded, invested and managed many projects including:
 
