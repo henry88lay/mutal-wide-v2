@@ -8,11 +8,6 @@ const Footer = () => {
     <StyledFooter>
       <FooterWrapper>
         <SocialLinks />
-
-        <FooterAttribution>
-          Developed and Maintained by {' '}
-          <a href="https://www.linkedin.com/in/henry-lay/">Henry Lay</a>
-        </FooterAttribution>
       </FooterWrapper>
     </StyledFooter>
   );
