@@ -53,7 +53,4 @@ Simon has over 30 years of experience in the Australian forestry industry and ha
 
 Andrew is a proven entrepreneur having founded, built and exited several businesses for over 30 years. Andrew has extensive knowledge in design and manufacturing of automated machinery. He has won awards for his design – including the 1999 Young Entrepreneur Award through the Weekly Times and the Hugh McKay Innovators award (NRE excellence in Science) for his design, development and work.
 
-##### Mark Smith
-
-Mark is a seasoned cannabis professional with extensive experience in the development of the industrial hemp and medicinal cannabis industries in Australia, Europe and Asia. He has provided expert advice in the development of company business modelling and due diligence for a number of international cannabis companies. This included advising on land selection, farmer engagement employing in depth technical expertise for the development of the operational plans.
 
